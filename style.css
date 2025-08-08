@@ -126,6 +126,67 @@ header {
   }
 }
 
+/*To do styles */
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #000000;
+  padding: 2rem 1rem;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+  margin-top: 2rem;
+  height: auto;
+  text-align: center;
+}
+
+.todo-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 auto 1rem;
+  border-bottom: #4AC959 solid 0.25rem;
+  padding-bottom: 0.5rem;
+}
+
+.todo-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  max-width: 90%;
+  line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .todo-container {
+    height: 26.25rem;
+    clip-path: polygon(0% 23.1%, 100% 0%, 100% 76.9%, 0% 100%);
+    margin-top: 4.5rem;
+  }
+
+.todo-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.75rem;
+	font-weight: 600;
+	line-height: 60%;
+	color: #ffffff;
+	border-bottom: #4AC959 solid 0.25rem;
+	padding-bottom: 1.5rem;
+}
+  .todo-description {
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    max-width: 37.5rem;
+    text-align: left;
+  }
+}
+
+
 /**
  * Render the `main` element consistently in IE.
  */
