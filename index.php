@@ -100,35 +100,55 @@ get_header();
         </div>
         <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/background-decoration2.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="decoration2">
     </section>
-        <div class="propaganda-container">
-            <div class="propaganda-background">
-                <h1 class="propaganda-title"> good things </h1>
-                <div class="propaganda-image-container">
-                    <div class="propaganda-item">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda1.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
-
-                        <span class="propaganda-attribute"> function</span>
-                        <p class="propaganda-description"> Organize your daily job enhance your life performance</p>
-                        <p class="read-more"> read more </p>
-                    </div>
-                    <div class="propaganda-item">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda2.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
-                        <span class="propaganda-attribute"> function</span>
-                        <p class="propaganda-description"> Mark one activity as done makes your brain understands the power os doing.</p>
-                        <p class="read-more"> read more </p>
-                    </div>
-                    <div class="propaganda-item">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda3.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
-                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
-                        <span class="propaganda-attribute"> function</span>
-                        <p class="propaganda-description"> Careful with misunderstanding the difference between a list of things and a list of desires.</p>
-                        <p class="read-more"> read more </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+		<div class="propaganda-container">
+		    <div class="propaganda-background">
+		        <h1 class="propaganda-title"> good things </h1>
+		        <div class="swiper propaganda-image-container">
+		            <div class="swiper-wrapper">
+		                <div class="swiper-slide propaganda-item">
+		                    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda1.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
+		                    <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers" class="propaganda-icon-coopers">
+		                    <span class="propaganda-attribute"> function</span>
+		                    <p class="propaganda-description"> Organize your daily job enhance your life performance</p>
+		                    <p class="read-more"> read more </p>
+		                </div>
+		                <div class="swiper-slide propaganda-item">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda2.svg' ); ?>" alt="Propaganda 2" class="propaganda-image">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers" class="propaganda-icon-coopers">
+		                     <span class="propaganda-attribute"> function</span>
+		                     <p class="propaganda-description"> Mark one activity as done makes your brain understands the power os doing.</p>
+		                     <p class="read-more"> read more </p>
+		                </div>
+		                <div class="swiper-slide propaganda-item">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda3.svg' ); ?>" alt="Propaganda 3" class="propaganda-image">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers" class="propaganda-icon-coopers">
+		                     <span class="propaganda-attribute"> function</span>
+		                     <p class="propaganda-description"> Careful with misunderstanding the difference between a list of things and a list of desires.</p>
+		                     <p class="read-more"> read more </p>
+		                </div>
+		                <div class="swiper-slide propaganda-item">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda1.svg' ); ?>" alt="Propaganda 4" class="propaganda-image">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers" class="propaganda-icon-coopers">
+		                     <span class="propaganda-attribute"> function</span>
+		                     <p class="propaganda-description"> A new description for the fourth slide to make it unique.</p>
+		                     <p class="read-more"> read more </p>
+		                </div>
+		                <div class="swiper-slide propaganda-item">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda2.svg' ); ?>" alt="Propaganda 5" class="propaganda-image">
+		                     <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers" class="propaganda-icon-coopers">
+		                     <span class="propaganda-attribute"> function</span>
+		                     <p class="propaganda-description"> And a final unique description for the fifth amazing slide.</p>
+		                     <p class="read-more"> read more </p>
+		                </div>
+		            </div>
+		            <div class="swiper-pagination-custom">
+		                <span class="swiper-pagination-bullet"></span>
+		                <span class="swiper-pagination-bullet"></span>
+		                <span class="swiper-pagination-bullet"></span>
+		            </div>
+		        </div>
+		    </div>
+		</div>
 		<div class="contact-container">
             <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/photo-form.svg' ); ?>" alt="Foto acima do formulário de contato" class="contact-image">
             <div class="form-green-bar"></div>
