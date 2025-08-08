@@ -11,7 +11,7 @@
  *
  * @package DesafioCoopers
  */
-
+acf_form_head();
 get_header();
 ?>
 
@@ -128,6 +128,27 @@ get_header();
                     </div>
                 </div>
             </div>
+        </div>
+		<div class="contact-container">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/photo-form.svg' ); ?>" alt="Foto acima do formulário de contato" class="contact-image">
+            <div class="form-green-bar"></div>
+            <div class="title-form">
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-mail.svg' ); ?>" alt="Icone de envelope" class="icon-mail">
+                <h1 class="title-text-form">GET IN <strong>TOUCH</strong></h1>
+            </div>
+            <?php
+            acf_form([
+                'post_id' => 'new_post',
+                'new_post' => [
+                    'post_type' => 'contact',
+                    'post_status' => 'publish',
+                ],
+                'field_groups' => ['group_6895f87f6902b'],
+                'submit_value' => 'SEND NOW',
+                'html_submit_button' => '<button type="submit" class="btn btn-submit">%s</button>',
+            ])
+            ?>
+
         </div>
 	</body>
 
