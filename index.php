@@ -68,6 +68,67 @@ get_header();
         <h1 class="todo-title"> To-do List </h1>
         <p class="todo-description"> Choose the right plan for you and get in touch through our contact form. We are here to help. </p>
     </div>
+
+	    <section class="plan-section">
+        <div class="plan-container">
+            <div class="plan-item">
+                <h1 class="plan-price"> R$ 20 / mês </h1>
+                <p class="plan-description"> Basic Plan <br>
+                <strong>unlimited tasks</strong></p>
+                <ul class="plan-features">
+                    <li class="included">Create to-do lists</li>
+                    <li class="included">Share lists via WhatsApp</li>
+                    <li class="excluded">Offline mode</li>
+                    <li class="excluded">Invite colaborators</li>
+                    <li class="excluded">Dark mode</li>
+                </ul>
+                <button class="btn btn-plan">get in touch</button>
+            </div>
+            <div class="plan-item">
+                <h1 class="plan-price"> R$ 30 / mês </h1>
+                <p class="plan-description"> Pro Plan <br>
+                <strong>unlimited everything</strong></p>
+                <ul class="plan-features">
+                    <li class="included">Create to-do lists</li>
+                    <li class="included">Share lists via WhatsApp</li>
+                    <li class="included">Offline mode</li>
+                    <li class="included">Invite colaborators</li>
+                    <li class="included">Dark mode</li>
+                </ul>
+                <button class="btn btn-plan">get in touch</button>
+            </div>
+        </div>
+        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/background-decoration2.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="decoration2">
+    </section>
+        <div class="propaganda-container">
+            <div class="propaganda-background">
+                <h1 class="propaganda-title"> good things </h1>
+                <div class="propaganda-image-container">
+                    <div class="propaganda-item">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda1.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
+
+                        <span class="propaganda-attribute"> function</span>
+                        <p class="propaganda-description"> Organize your daily job enhance your life performance</p>
+                        <p class="read-more"> read more </p>
+                    </div>
+                    <div class="propaganda-item">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda2.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
+                        <span class="propaganda-attribute"> function</span>
+                        <p class="propaganda-description"> Mark one activity as done makes your brain understands the power os doing.</p>
+                        <p class="read-more"> read more </p>
+                    </div>
+                    <div class="propaganda-item">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/propaganda3.svg' ); ?>" alt="Propaganda 1" class="propaganda-image">
+                        <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/icon-coopers.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="propaganda-icon-coopers">
+                        <span class="propaganda-attribute"> function</span>
+                        <p class="propaganda-description"> Careful with misunderstanding the difference between a list of things and a list of desires.</p>
+                        <p class="read-more"> read more </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</body>
 
 <?php
