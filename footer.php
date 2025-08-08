@@ -12,22 +12,14 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'desafiocoopers' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'desafiocoopers' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'desafiocoopers' ), 'desafiocoopers', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="footer-content">
+				<p class="footer-title">Need help?</p>
+				<a href="mailto:coopers@coopers.pro" class="footer-email">coopers@coopers.pro </a>
+				<p class="copyright"><small>&copy; 2021 Coopers. All rights reserved.</small></p>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
-</div><!-- #page -->
-
 <?php wp_footer(); ?>
 
 </body>

@@ -485,6 +485,71 @@ header {
     text-align: left;
   }
 }
+/** Footer styles */
+
+
+.site-footer {
+	content: "";
+	display: block;
+	height: 15.375rem;
+	width: 100%;
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 0.75rem;
+	padding-bottom: 0.25rem;
+	text-align: center;
+	position: absolute;
+	margin-top:2.5rem;
+	left: 0;
+	z-index: 1;
+
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.site-footer::after {
+	content: "";
+	display: block;
+	height: 2.56rem;
+	width: 34.4375rem;
+	background-color: #4AC959;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+
+	-webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+ 	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+}
+.footer-title {
+	font-size: 1.5rem;
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+	line-height: 18%;
+	margin-top: 4.5rem;
+}
+
+.footer-email {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-family: Poppins, sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	display: block;
+	line-height: 18%;
+	transition: color 0.3s ease;
+}
+
+.footer-email:hover {
+	color: #4AC959;
+}
+
+.copyright {
+	font-size: 0.875rem;
+	font-family: Poppins, sans-serif;
+	margin-top: 1.125rem;
+}
 
 /**
  * Render the `main` element consistently in IE.
