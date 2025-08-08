@@ -51,6 +51,24 @@ get_header();
 		?>
 
 	</main><!-- #main -->
+	<body>
+		    <div class="hero-content">
+    	<div class="hero-text">
+        	<h1 class="hero-title"> Organize </h1>
+        	<h2 class="hero-subtitle"> your daily jobs </h2>
+        	<p class="hero-description"> The only way to get things done. </p>
+        	<button class="btn btn-primary"> Meet the To-do list </button>
+		</div>
+        <div class="image-container">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/hero-photo.svg' ); ?>" alt="Hero Image" class="hero-image">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/background-decoration1.svg' ); ?>" alt="Icone Coopers como detalhe no banner" class="decoration1">
+        </div>
+    </div>
+    <div class="todo-container">
+        <h1 class="todo-title"> To-do List </h1>
+        <p class="todo-description"> Choose the right plan for you and get in touch through our contact form. We are here to help. </p>
+    </div>
+	</body>
 
 <?php
 get_sidebar();
