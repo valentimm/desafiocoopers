@@ -1,0 +1,27 @@
+# Core WordPress files and directories
+wp-admin/
+wp-includes/
+
+# Content directories to ignore
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/languages/
+
+# Specific files to ignore
+wp-config.php # Often ignored if sensitive data is present, or managed separately
+.htaccess # If specific to environment and not version controlled
+error_log
+debug.log
+
+# Node.js dependencies (if using front-end development)
+node_modules/
+
+# Composer dependencies (if using Bedrock or similar)
+vendor/
+
+# IDE and OS specific files
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
